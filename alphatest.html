@@ -92,7 +92,7 @@
 <nav id="nav-main">
                         <ul>
                             <li id="mainhome">
-                                <a href="index.html">Home</a>
+                                <a href="index.html" id="external">Home</a>
                             </li>
                             <li>
                                 <a href="#about">Rewards</a>
@@ -3296,7 +3296,8 @@
 <script src="js/images-loaded.min.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script src="js/site.js"></script>
-<script>$('mainhome').click(function(){
+<script>
+$('#external').click(function(){
    window.location.href='index.html';
 })</script>
 

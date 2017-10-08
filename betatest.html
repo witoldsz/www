@@ -53,11 +53,11 @@
                     <div id="logo">
 
                         <!--Logo that is shown on the banner-->
-                        <img href="index.html" src="images/semux.png" id="banner-logo" alt="Wallet"/>
+                        <img href="index.html" src="images/semux.png" class="active" id="banner-logo" alt="Wallet"/>
                         <!--End of Banner Logo-->
 
                         <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img href="index.html" src="images/semux-2.png" id="navigation-logo" alt="Wallet"/>
+                        <img href="index.html" src="images/semux-2.png" class="active" id="navigation-logo" alt="Wallet"/>
                         <!--End of Navigation Logo-->
 
                     </div>
@@ -92,7 +92,7 @@
 <nav id="nav-main">
                         <ul>
                             <li id="mainhome">
-                                <a href="index.html">Home</a>
+                                <a href="index.html" id="external" >Home</a>
                             </li>
                             <li>
                                 <a href="#">Beta Test</a>
@@ -164,7 +164,8 @@
 <script src="js/images-loaded.min.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script src="js/site.js"></script>
-<script>$('mainhome').click(function(){
+<script>
+$('#external').click(function(){
    window.location.href='index.html';
 })</script>
 
