@@ -307,6 +307,7 @@ section {
     z-index: 9999;
     width: 100%;
     position: absolute !important;
+    top: 0;
 }
 
 #header .row {
@@ -2326,7 +2327,3 @@ blockquote {
     }
 
 }
-
-
-
-

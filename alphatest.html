@@ -53,11 +53,11 @@
                     <div id="logo">
 
                         <!--Logo that is shown on the banner-->
-                        <img href="index.html" src="images/semux.png" id="banner-logo" alt="Wallet"/>
+                        <img href="index.html" src="images/semux.png" id="banner-logo" class="external" alt="Wallet"/>
                         <!--End of Banner Logo-->
 
                         <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img href="index.html" src="images/semux-2.png" id="navigation-logo" alt="Wallet"/>
+                        <img href="index.html" src="images/semux-2.png" id="navigation-logo" class="external" alt="Wallet"/>
                         <!--End of Navigation Logo-->
 
                     </div>
@@ -3299,7 +3299,12 @@
 <script>
 $('#external').click(function(){
    window.location.href='index.html';
-})</script>
+});
+
+$('.external').click(function(){
+   window.location.href='index.html';
+});
+</script>
 
 </body>
 </html>
