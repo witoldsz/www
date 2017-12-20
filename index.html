@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
     <meta charset="UTF-8">
 
@@ -8,12 +9,11 @@
 
     <!--Meta Keywords and Description-->
     <meta name="keywords" content="Semux">
-    <meta name="description"
-          content="Semux is an experimental high-performance blockchain platform that powers decentralized application. It's written purely in Java and powered by Semux BFT consensus algorithm.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="description" content="Semux is an experimental high-performance blockchain platform that powers decentralized application. It's written purely in Java and powered by Semux BFT consensus algorithm.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon" />
 
     <!-- Main CSS Files -->
     <link rel="stylesheet" href="css/style.css">
@@ -29,364 +29,355 @@
 
     <!--Google Webfonts-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <style>
+        ul,
+        ol {
+            padding: 0 0 10px 20px;
+        }
+
+        li {
+            line-height: 1.75;
+        }
+    </style>
 </head>
+
 <body>
 
-<!-- Preloader -->
-<div id="preloader">
-    <div id="status" class="la-ball-triangle-path">
-        <div></div>
-        <div></div>
-        <div></div>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status" class="la-ball-triangle-path">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
-</div>
-<!--End of Preloader-->
+    <!--End of Preloader-->
 
+    <div id="wrapper">
 
-<div id="wrapper">
+        <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+            <div id="header" class="nav-collapse">
+                <div class="row clearfix">
+                    <div class="col-1">
 
-    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
-        <div id="header" class="nav-collapse">
-            <div class="row clearfix">
-                <div class="col-1">
+                        <!--Logo-->
+                        <div id="logo">
 
-                    <!--Logo-->
-                    <div id="logo">
+                            <!--Logo that is shown on the banner-->
+                            <img src="images/semux.png" id="banner-logo" alt="Wallet" class="internal">
+                            <!--End of Banner Logo-->
 
-                        <!--Logo that is shown on the banner-->
-                        <img src="images/semux.png" id="banner-logo" alt="Wallet" class="internal">
-                        <!--End of Banner Logo-->
+                            <!--The Logo that is shown on the sticky Navigation Bar-->
+                            <img src="images/semux.png" id="navigation-logo" alt="Wallet" class="internal">
+                            <!--End of Navigation Logo-->
 
-                        <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img src="images/semux.png" id="navigation-logo" alt="Wallet" class="internal">
-                        <!--End of Navigation Logo-->
+                        </div>
+                        <!--End of Logo-->
+
+                        <aside>
+
+                            <!--Social Icons in Header-->
+                            <ul class="social-icons">
+                                <li>
+                                    <a target="_blank" title="Github" href="https://github.com/semuxproject/semux">
+                                        <i class="fa fa-github fa-1x"></i><span>Github</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a target="_blank" title="Twitter" href="https://twitter.com/semuxproject">
+                                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="Discord" href="https://discord.gg/qQVckKZ">
+                                        <i class="fa fa-comments-o fa-1x"></i><span>Discord</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <!--End of Social Icons in Header-->
+
+                        </aside>
+
+                        <!--Main Navigation-->
+                        <nav id="nav-main">
+                            <ul>
+                                <li>
+                                    <a href="#banner">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about">What is Semux</a>
+                                </li>
+                                <li>
+                                    <a href="#start">Get Started</a>
+                                </li>
+                                <li>
+                                    <a href="#distribution">Distribution</a>
+                                </li>
+                                <li>
+                                    <a href="https://semux.info/">Semux Stats</a>
+                                </li>
+
+                                <li>
+                                    <a href="http://semuxchain.info/">Semux Explorer</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                        <!--End of Main Navigation-->
+
+                        <div id="nav-trigger"><span></span></div>
+                        <nav id="nav-mobile"></nav>
 
                     </div>
-                    <!--End of Logo-->
-
-                    <aside>
-
-                        <!--Social Icons in Header-->
-                        <ul class="social-icons">
-                            <li>
-                                <a target="_blank" title="Github" href="https://github.com/semuxproject/semux">
-                                    <i class="fa fa-github fa-1x"></i><span>Github</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a target="_blank" title="Twitter" href="https://twitter.com/semuxproject">
-                                    <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" title="Discord" href="https://discord.gg/qQVckKZ">
-                                    <i class="fa fa-comments-o fa-1x"></i><span>Discord</span>
-                                </a>
-                            </li>
-
-                        </ul>
-                        <!--End of Social Icons in Header-->
-
-                    </aside>
-
-                    <!--Main Navigation-->
-                    <nav id="nav-main">
-                        <ul>
-                            <li>
-                                <a href="#banner">Home</a>
-                            </li>
-                            <li>
-                                <a href="#about">What is Semux</a>
-                            </li>
-                            <li>
-                                <a href="#start">Get Started</a>
-                            </li>
-                            <li>
-                                <a href="#distribution">Distribution</a>
-                            </li>
-                            <li>
-                                <a href="https://semux.info/">Semux Stats</a>
-                            </li>
-
-                            <li>
-                                <a href="http://semuxchain.info/">Semux Explorer</a>
-                            </li>
-
-                        </ul>
-                    </nav>
-                    <!--End of Main Navigation-->
-
-                    <div id="nav-trigger"><span></span></div>
-                    <nav id="nav-mobile"></nav>
-
                 </div>
             </div>
-        </div><!--End of Header-->
+            <!--End of Header-->
 
-        <!--Banner Content-->
-        <div id="banner-content" class="row no-padding-bottom clearfix">
+            <!--Banner Content-->
+            <div id="banner-content" class="row no-padding-bottom clearfix">
 
-            <div class="col-38">
-
-                <div class="section-heading">
-                    <h1>A NEW AND EXCITING BLOCKCHAIN</h1>
-                    <h2>Semux is an experimental high-performance blockchain platform powered by <b><em>Semux BFT
-                        consensus algorithm</em></b>.</h2>
-                </div>
-
-                <!--Call to Action-->
-                <a href="https://github.com/semuxproject/semux/releases" class="button">DOWNLOAD NOW!</a>
-                <!--End Call to Action-->
-
-            </div>
-
-        </div><!--End of Row-->
-    </header>
-
-    <!--Main Content Area-->
-    <main id="content">
-
-        <!--Introduction-->
-        <section id="about" class="introduction scrollto">
-
-            <div class="row no-padding-bottom clearfix">
-
-                <div class="col-3">
-                    <div class="section-heading">
-                        <h3>SEMUX</h3>
-                        <h2 class="section-title">What is Semux?</h2>
-                        <p class="section-subtitle">Semux is an experimental high-performance blockchain platform that
-                            powers decentralized application. It's written purely in Java and powered by Semux BFT
-                            consensus algorithm. <a href="https://github.com/semuxproject/semux/wiki">Wiki</a></p>
-                    </div>
-                </div>
-
-                <div class="col-2-3">
-
-                    <!--Icon Block-->
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
-                        <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-file-code-o fa-2x"></i>
-                        </div>
-                        <!--Icon Block Description-->
-                        <div class="icon-block-description">
-                            <h4>Original Codebase</h4>
-                            <p>Semux uses 100% original codebase.</p>
-                        </div>
-                    </div>
-                    <!--End of Icon Block-->
-
-                    <!--Icon Block-->
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
-                        <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-bolt fa-2x"></i>
-                        </div>
-                        <!--Icon Block Description-->
-                        <div class="icon-block-description">
-                            <h4>Instant Finality</h4>
-                            <p>Superfast with 30 seconds block time</p>
-                        </div>
-                    </div>
-                    <!--End of Icon Block-->
-
-                    <!--Icon Block-->
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
-                        <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-tablet fa-2x"></i>
-                        </div>
-                        <!--Icon Block Description-->
-                        <div class="icon-block-description">
-                            <h4>High Performance</h4>
-                            <p>Tested 5,000 tx per block on open network.</p>
-                        </div>
-                    </div>
-                    <!--End of Icon Block-->
-
-                    <!--Icon Block-->
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
-                        <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-rocket fa-2x"></i>
-                        </div>
-                        <!--Icon Block Description-->
-                        <div class="icon-block-description">
-                            <h4>Secure</h4>
-                            <p>Powered by Semux BFT consensus.</p>
-                        </div>
-                    </div>
-                    <!--End of Icon Block-->
-
-                </div>
-
-            </div>
-
-
-        </section>
-        <!--End of Introduction-->
-
-
-        <!--Content Section-->
-        <div id="start" class="scrollto clearfix">
-
-            <div class="row no-padding-bottom clearfix">
-
-                <!--Content Left Side-->
-                <div class="col-3">
-                    <div class="section-heading">
-                        <h3>The beginning</h3>
-                        <h2 class="section-title">Get Started</h2>
-                    </div>
-                </div>
-                <!--End Content Left Side-->
-
-                <!--Content of the Right Side-->
                 <div class="col-2">
-                    <ol style="line-height: 2">
-                        <li>Download and install <a
-                                href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java
-                            SE Runtime Environment 8</a> (64-bit version is recommended)
-                        </li>
-                        </li>
-                        <li><em>(Windows user)</em> You may also need to download Microsoft Visual C++ 2010
-                            Redistributable Package <a
-                                    href="http://www.microsoft.com/en-us/download/details.aspx?id=5555">32-bit</a> or <a
-                                    href="https://www.microsoft.com/en-us/download/details.aspx?id=14632">64-bit</a>
-                        </li>
-                        <li>Click the bottom below to download Semux Wallet</li>
-                    </ol>
 
+                    <div class="section-heading">
+                        <h1>A NEW AND EXCITING BLOCKCHAIN</h1>
+                        <h2>Semux is an experimental high-performance blockchain platform powered by <b><em>Semux BFT
+                        consensus algorithm</em></b>.</h2>
+                    </div>
 
-                    </p>
                     <!--Call to Action-->
                     <a href="https://github.com/semuxproject/semux/releases" class="button">DOWNLOAD NOW!</a>
+                    <!--End Call to Action-->
 
                 </div>
-                <!--End Content Right Side-->
+
             </div>
+            <!--End of Row-->
+        </header>
 
+        <!--Main Content Area-->
+        <main id="content">
 
-        </div>
-        <!--End of Content Section-->
+            <!--Introduction-->
+            <section id="about" class="introduction scrollto">
 
-        <!--Content Section-->
-        <div id="distribution" class="scrollto clearfix">
+                <div class="row no-padding-bottom clearfix">
 
-            <div class="row no-padding-bottom clearfix">
-
-                <!--Content of the Right Side-->
-                <div class="col-3">
-                    <div class="section-heading">
-                        <h3>Distribution</h3>
-                        <h2 class="section-title">Coin Distribution</h2>
-                        <p class="section-subtitle">100,000,000 SEM
-                            <small>Maximum Supply</small>
-                        </p>
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>SEMUX</h3>
+                            <h2 class="section-title">What is Semux?</h2>
+                            <p class="section-subtitle">Semux is an experimental high-performance blockchain platform that powers decentralized application. It's written purely in Java and powered by Semux BFT consensus algorithm. <a href="https://github.com/semuxproject/semux/wiki">Wiki</a></p>
+                        </div>
                     </div>
+
+                    <div class="col-2-3">
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fa fa-file-code-o fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>Original Codebase</h4>
+                                <p>Semux uses 100% original codebase.</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fa fa-bolt fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>Instant Finality</h4>
+                                <p>Superfast with 30 seconds block time</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fa fa-tablet fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>High Performance</h4>
+                                <p>Tested 5,000 tx per block on open network.</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fa fa-rocket fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>Secure</h4>
+                                <p>Powered by Semux BFT consensus.</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                    </div>
+
                 </div>
-                <!--End Content Left Side-->
 
-                <!--Content of the Right Side-->
-                <div class="col-2">
-                    <h5><b>Block Rewards: 75,000,000 SEM</b></h5>
-                    <ul style="padding: 0 0 10px 30px;">
-                        <li>Block reward: 3 SEM / block</li>
-                    </ul>
+            </section>
+            <!--End of Introduction-->
 
-                    <h5><b>Public distribution: 10,000,000 SEM</b></h5>
-                    <ul style="padding: 0 0 10px 30px;">
-                        <li>Alpha test participant rewards: 1,349,660 SEM</li>
-                        <li>Beta test validator rewards: 864,000 SEM</li>
-                        <li>RC test validator rewards: * SEM</li>
-                        <li>BitcoinTalk airdrop: 1,016,600 SEM</li>
-                        <li>Bicoin airdrop: <small><a href="https://bitcointalk.org/index.php?topic=2159012.0">participate</a></small></li>
-                    </ul>
+            <!--Content Section-->
+            <div id="start" class="scrollto clearfix">
 
-                    <h5><b>Development and marketing: 10,000,000 SEM</b></h5>
-                    <ul style="padding: 0 0 10px 30px;">
-                        <li>Explorer: 20,000 SEM claimed by @masterbruce, <a href="http://semuxchain.info">
-                            <small>link</small>
-                        </a></li>
-                        <li>Network stats: 10,000 SEM claimed by @honeycrypto, <a href="http://semux.info">
-                            <small>link</small>
-                        </a></li>
-                        <li>Bug bounties: 1,000 ~ 50,000 SEM, please submit bugs to <a
-                                href="https://github.com/semuxproject/semux/issues">
-                            <small>Github</small>
-                        </a></li>
-                        <li>Signature campaign: 300,000 SEM</li>
-                    </ul>
+                <div class="row no-padding-bottom clearfix">
 
-                    <h5><b>Founders: 5,000,000 SEM</b></h5>
+                    <!--Content Left Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>The beginning</h3>
+                            <h2 class="section-title">Get Started</h2>
+                        </div>
+                    </div>
+                    <!--End Content Left Side-->
+
+                    <!--Content of the Right Side-->
+                    <div class="col-2">
+                        <ol>
+                            <li>Download and install <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java
+                            SE Runtime Environment 8</a> (64-bit version is recommended)
+                            </li>
+                            </li>
+                            <li><em>(Windows user)</em> Download and install Microsoft Visual C++ 2010 Redistributable Package <a href="http://www.microsoft.com/en-us/download/details.aspx?id=5555">32-bit</a> or <a href="https://www.microsoft.com/en-us/download/details.aspx?id=14632">64-bit</a>
+                            </li>
+                            <li>Download the latest version of Semux Wallet below</li>
+                        </ol>
+
+                        </p>
+                        <!--Call to Action-->
+                        <a href="https://github.com/semuxproject/semux/releases" class="button">DOWNLOAD NOW!</a>
+
+                    </div>
+                    <!--End Content Right Side-->
                 </div>
-                <!--End Content Right Side-->
+
             </div>
+            <!--End of Content Section-->
 
+            <!--Content Section-->
+            <div id="distribution" class="scrollto clearfix">
 
-        </div>
-        <!--End of Content Section-->
+                <div class="row no-padding-bottom clearfix">
 
-    </main>
-    <!--End Main Content Area-->
+                    <!--Content of the Right Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>Distribution</h3>
+                            <h2 class="section-title">Coin Distribution</h2>
+                            <p class="section-subtitle">100,000,000 SEM
+                                <small>Maximum Supply</small>
+                            </p>
+                        </div>
+                    </div>
+                    <!--End Content Left Side-->
 
+                    <!--Content of the Right Side-->
+                    <div class="col-2">
+                        <h5><b>Block Rewards: 75,000,000 SEM</b></h5>
+                        <ul>
+                            <li>Block reward: 3 SEM / block</li>
+                        </ul>
 
-    <!--Footer-->
-    <footer id="landing-footer" class="clearfix">
-        <p style="text-align: center; margin: 50px 0">&copy; 2017 Semux Foundation</p>
-    </footer>
-    <!--End of Footer-->
+                        <h5><b>Public distribution: 10,000,000 SEM</b></h5>
+                        <ul>
+                            <li>Alpha test participant rewards: 1,349,660 SEM</li>
+                            <li>Beta test validator rewards: 864,000 SEM</li>
+                            <li>RC test validator rewards: * SEM</li>
+                            <li>BitcoinTalk airdrop: 1,016,600 SEM</li>
+                            <li>Bicoin airdrop: <small><a href="https://bitcointalk.org/index.php?topic=2159012.0">participate now</a></small></li>
+                        </ul>
 
-</div>
+                        <h5><b>Development and marketing: 10,000,000 SEM</b></h5>
+                        <ul>
+                            <li>Explorer: 20,000 SEM claimed by @masterbruce,
+                                <a href="http://semuxchain.info">
+                                    <small>link</small>
+                                </a>
+                            </li>
+                            <li>Network stats: 10,000 SEM claimed by @honeycrypto,
+                                <a href="http://semux.info">
+                                    <small>link</small>
+                                </a>
+                            </li>
+                            <li>Bug bounties: 1,000 ~ 50,000 SEM, please submit bugs to
+                                <a href="https://github.com/semuxproject/semux/issues">
+                                    <small>Github</small>
+                                </a>
+                            </li>
+                            <li>Signature campaign: 300,000 SEM</li>
+                        </ul>
 
-<!-- Include JavaScript resources -->
-<script src="js/jquery.1.8.3.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/featherlight.min.js"></script>
-<script src="js/featherlight.gallery.min.js"></script>
-<script src="js/jquery.enllax.min.js"></script>
-<script src="js/jquery.scrollUp.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.stickyNavbar.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/images-loaded.min.js"></script>
-<script src="js/lightbox.min.js"></script>
-<script src="js/site.js"></script>
-<script>
+                        <h5><b>Founders: 5,000,000 SEM</b></h5>
+                    </div>
+                    <!--End Content Right Side-->
+                </div>
 
-$('#external').click(function(){
-   window.location.href='index.html';
-});
+            </div>
+            <!--End of Content Section-->
 
-$('.external').click(function(){
-   window.location.href='index.html';
-});
+        </main>
+        <!--End Main Content Area-->
 
-$('#internal').click(function(){
-   window.location.href='index.html';
-});
+        <!--Footer-->
+        <footer id="landing-footer" class="clearfix">
+            <p style="text-align: center; margin: 50px 0">&copy; 2017 Semux Foundation</p>
+        </footer>
+        <!--End of Footer-->
 
-$('.internal').click(function(){
-   window.location.href='index.html';
-});
+    </div>
 
+    <!-- Include JavaScript resources -->
+    <script src="js/jquery.1.8.3.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/featherlight.min.js"></script>
+    <script src="js/featherlight.gallery.min.js"></script>
+    <script src="js/jquery.enllax.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.stickyNavbar.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/images-loaded.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+        $('#external').click(function() {
+            window.location.href = 'index.html';
+        });
 
+        $('.external').click(function() {
+            window.location.href = 'index.html';
+        });
 
+        $('#internal').click(function() {
+            window.location.href = 'index.html';
+        });
 
-
-
-
-
-
-
-
-
-
-
-
-</script>
+        $('.internal').click(function() {
+            window.location.href = 'index.html';
+        });
+    </script>
 
 </body>
+
 </html>
