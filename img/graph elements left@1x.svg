@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="329px" viewBox="0 0 148 329" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>graph elements left@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF714A" offset="0%"></stop>
+            <stop stop-color="#FBB04F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SEMUX-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -2741.000000)">
+        <g id="Roadmap" transform="translate(-137.000000, 2580.000000)" fill-rule="nonzero">
+            <g id="roadmap_node_highlight-copy-4" transform="translate(839.500000, 245.000000) scale(-1, -1) rotate(-270.000000) translate(-839.500000, -245.000000) translate(594.500000, -594.500000)">
+                <g id="graph-elements-left" transform="translate(0.000000, 0.000000)">
+                    <path d="M230.052632,28.7487876 L237.061404,40.9117362 L288.733918,130.198836 L295.880117,142.5 L288.733918,154.801164 L237.061404,244.088264 L230.052632,256.251212 L216.035088,256.251212 L112.827485,256.251212 L98.8099415,256.251212 L91.8011696,244.088264 L40.128655,154.801164 L32.9824561,142.5 L40.128655,130.198836 L91.8011696,40.9117362 L98.8099415,28.7487876 L112.827485,28.7487876 L216.035088,28.7487876 L230.052632,28.7487876 Z M246.681287,0 L238.710526,0 L222.906433,0 L106.093567,0 L90.2894737,0 L82.3187135,0 L78.3333333,6.91076625 L70.3625731,20.5940834 L11.9561404,121.629486 L3.98538012,135.589234 L0,142.5 L3.98538012,149.410766 L11.9561404,163.370514 L70.3625731,264.405917 L78.3333333,278.089234 L82.3187135,285 L90.2894737,285 L106.093567,285 L222.906433,285 L238.710526,285 L246.681287,285 L250.666667,278.089234 L258.637427,264.405917 L317.04386,163.370514 L325.01462,149.410766 L329,142.5 L325.01462,135.589234 L317.04386,121.629486 L258.637427,20.5940834 L250.666667,6.91076625 L246.681287,0 Z" id="Fill-1_5_" fill="#FF774B"></path>
+                    <polygon id="Fill-1" fill="url(#linearGradient-1)" points="203.75 76 125.25 76 86 141 125.25 206 203.75 206 243 141"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>dowmload@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="SEMUX-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-209.000000, -447.000000)">
+        <g id="Main-" transform="translate(-712.000000, -945.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="button" transform="translate(879.000000, 1378.000000)">
+                <g id="dowmload" transform="translate(42.000000, 14.000000)">
+                    <path d="M8.3079,18.3582 L9,18.64485 L9.6921,18.3582 L15.354,12.6963 C15.73605,12.31425 15.73605,11.69415 15.354,11.3121 C14.97195,10.93005 14.35185,10.93005 13.9698,11.3121 L9.9792,15.3027 L9.9792,1.3302 C9.9792,0.78975 9.5409,0.35145 9.00045,0.35145 C8.46,0.35145 8.0217,0.78975 8.0217,1.3302 L8.0217,15.30315 L4.03065,11.3121 C3.6486,10.93005 3.0285,10.93005 2.64645,11.3121 C2.2644,11.69415 2.2644,12.31425 2.64645,12.6963 L8.3079,18.3582 Z" id="Shape"></path>
+                    <path d="M16.7706,21.09105 L1.2294,21.09105 C0.68895,21.09105 0.25065,21.52935 0.25065,22.0698 C0.25065,22.61025 0.68895,23.04855 1.2294,23.04855 L16.7706,23.04855 C17.31105,23.04855 17.74935,22.61025 17.74935,22.0698 C17.74935,21.52935 17.3115,21.09105 16.7706,21.09105 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
