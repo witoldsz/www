@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="295px" height="768px" viewBox="0 0 295 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>circle left@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF714A" offset="0%"></stop>
+            <stop stop-color="#FBB04F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SEMUX-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -1545.000000)">
+        <path d="M-104.976915,2141.05841 C-222.504473,2141.05841 -318.124026,2045.84804 -318.124026,1928.93109 C-318.124026,1811.99117 -222.504473,1716.91097 -104.976915,1716.91097 C12.5506436,1716.91097 108.154807,1811.99117 108.154807,1928.93109 L108.154807,1929.00766 L295,1929.00766 L295,1928.93109 C295,1709.53762 115.595987,1531 -104.976915,1531 C-325.526731,1531 -505,1709.53762 -505,1928.93109 C-505,2148.40113 -325.526731,2327 -104.976915,2327 L-104.976915,2141.05841 Z" id="circle-left" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(-105.000000, 1929.000000) rotate(180.000000) translate(105.000000, -1929.000000) "></path>
+    </g>
+</svg>

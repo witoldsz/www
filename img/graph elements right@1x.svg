@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="233px" viewBox="0 0 100 233" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>graph elements right@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF714A" offset="0%"></stop>
+            <stop stop-color="#FBB04F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SEMUX-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1340.000000, -2580.000000)">
+        <g id="Roadmap" transform="translate(-137.000000, 2580.000000)" fill-rule="nonzero">
+            <g id="roadmap_node_highlight-copy-4" transform="translate(839.500000, 245.000000) scale(-1, -1) rotate(-270.000000) translate(-839.500000, -245.000000) translate(594.500000, -594.500000)">
+                <g id="graph-elements-right" transform="translate(257.000000, 1477.000000)">
+                    <path d="M162.924812,20.3763337 L167.888471,28.9970902 L204.483292,92.2812803 L209.544277,101 L204.483292,109.71872 L167.888471,173.00291 L162.924812,181.623666 L152.997494,181.623666 L79.9051796,181.623666 L69.9778613,181.623666 L65.0142022,173.00291 L28.4193818,109.71872 L23.358396,101 L28.4193818,92.2812803 L65.0142022,28.9970902 L69.9778613,20.3763337 L79.9051796,20.3763337 L152.997494,20.3763337 L162.924812,20.3763337 Z M174.701337,0 L169.056391,0 L157.863826,0 L75.1361738,0 L63.943609,0 L58.2986633,0 L55.4761905,4.89815713 L49.8312448,14.5965082 L8.46741855,86.2075655 L2.82247285,96.1018429 L0,101 L2.82247285,105.898157 L8.46741855,115.792435 L49.8312448,187.403492 L55.4761905,197.101843 L58.2986633,202 L63.943609,202 L75.1361738,202 L157.863826,202 L169.056391,202 L174.701337,202 L177.52381,197.101843 L183.168755,187.403492 L224.532581,115.792435 L230.177527,105.898157 L233,101 L230.177527,96.1018429 L224.532581,86.2075655 L183.168755,14.5965082 L177.52381,4.89815713 L174.701337,0 Z" id="Fill-1_5_" fill="#FF774B"></path>
+                    <polygon id="Fill-1" fill="url(#linearGradient-1)" points="144.25 54 88.75 54 61 100 88.75 146 144.25 146 172 100"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
