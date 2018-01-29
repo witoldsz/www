@@ -178,19 +178,19 @@
             </div>
             <ul class="list-inline list-roadmap">
                 <li class="list-inline-item">
-                    <h3 data-i18n="date" data-i18n-options='{"date":1504742400000}'>Sep 7, 2017</h3>
+                    <h3 data-i18n="alphaTestDate">Sep 7, 2017</h3>
                     <p data-i18n>Alpha test - completed</p>
                 </li>
                 <li class="list-inline-item">
-                    <h3 data-i18n="date" data-i18n-options='{"date":1506816000000}'>Oct 1, 2017</h3>
+                    <h3 data-i18n="betaTestDate">Oct 1, 2017</h3>
                     <p data-i18n>Beta test - completed</p>
                 </li>
                 <li class="list-inline-item">
-                    <h3 data-i18n="date" data-i18n-options='{"date":1509840000000}'>Nov 5, 2017</h3>
+                    <h3 data-i18n="RCTestDate">Nov 5, 2017</h3>
                     <p data-i18n>RC test - completed</p>
                 </li>
                 <li class="list-inline-item">
-                    <h3 data-i18n="date" data-i18n-options='{"date":1516406400000}'>Jan 20, 2018</h3>
+                    <h3 data-i18n="firstReleaseDate">Jan 20, 2018</h3>
                     <p data-i18n="[html]roadmapFirstReleaseCompleted">First release with Semux <br>BFT consensus - completed</p>
                 </li>
                 <li class="list-inline-item">
@@ -512,10 +512,14 @@
                         "foundersRewards": "5,000,000",
                         "txsPerBlock": "5,000",
                         "minTxFee": "0.005",
-                        "devs": "3"
+                        "devs": "3",
+                        "alphaTestDate": new Date(1504742400000),
+                        "betaTestDate": new Date(1506816000000),
+                        "RCTestDate": new Date(1509840000000),
+                        "firstReleaseDate": new Date(1516406400000),
                     },
                     format: function(value, format, lng) {
-                        if($.isNumeric(value)) {
+                        if(typeof value === 'object' && value instanceof Date) {
                             return moment.utc(value).format(format);
                         }
                         return value;
