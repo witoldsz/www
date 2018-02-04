@@ -25,7 +25,7 @@
   "RCTestDate": "{{RCTestDate,ll}}",
   "firstReleaseDate": "{{firstReleaseDate,ll}}",
   "The beginning": "The beginning",
-  "getStarted1": "Download and install <a href=\"{{java8}}\" target=\"_blank\">Java SE Runtime Environment 8</a> (64-bit version is recommended)",
+  "getStarted1": "Download and install <a href=\"{{java9}}\" target=\"_blank\">Java SE Runtime Environment 9</a>",
   "getStarted2": "(Windows user) Download and install Microsoft Visual C++ 2010 Redistributable Package <a href=\"{{vCpp2010Redist32}}\" target=\"_blank\">32-bit</a> or <a href=\"{{vCpp2010Redist64}}\" target=\"_blank\">64-bit</a>",
   "getStarted3": "Download the latest version of Semux Wallet below",
   "Coin Distribution": "Coin Distribution",
