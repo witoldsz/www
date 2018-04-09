@@ -38,6 +38,8 @@
   "rcTestRewards": "RC test rewards: {{rcTestRewards}} SEM",
   "bitcoinTalkAirdropRewards": "Airdrop to bitcointalk users: {{bitcoinTalkAirdropRewards}} SEM",
   "bitcoinAirdropRewards": "Airdrop to bitcoin holders: {{bitcoinAirdropRewards}} SEM",
+  "ethAirdropTitle": "Airdrop to ethereum holders:",
+  "ethAirdropCTA": "in progress, join now",
   "altcoinAirdropRewards": "Airdrop to altcoin holders: under consideration",
   "developmentAndMarketingRewards": "Development and marketing: {{developmentAndMarketingRewards}} SEM",
   "foundersRewards": "Founders: {{foundersRewards}} SEM",

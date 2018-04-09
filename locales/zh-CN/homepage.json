@@ -38,6 +38,8 @@
   "rcTestRewards": "RC测试奖励: {{rcTestRewards}} SEM",
   "bitcoinTalkAirdropRewards": "Bitcointalk空投: {{bitcoinTalkAirdropRewards}} SEM",
   "bitcoinAirdropRewards": "比特币空投: {{bitcoinAirdropRewards}} SEM",
+  "ethAirdropTitle": "Airdrop to ethereum holders:",
+  "ethAirdropCTA": "in progress, join now",
   "altcoinAirdropRewards": "山寨币空投: 规划中",
   "developmentAndMarketingRewards": "开发与营销费用: {{developmentAndMarketingRewards}} SEM",
   "foundersRewards": "创办人保留: {{foundersRewards}} SEM",

@@ -38,6 +38,8 @@
   "rcTestRewards": "Награда за пре-релиз (RC) тестирование: {{rcTestRewards}} SEM",
   "bitcoinTalkAirdropRewards": "Airdrop для пользователей Bitcointalk: {{bitcoinTalkAirdropRewards}} SEM",
   "bitcoinAirdropRewards": "Airdrop для держателей BTC: {{bitcoinAirdropRewards}} SEM",
+  "ethAirdropTitle": "Airdrop to ethereum holders:",
+  "ethAirdropCTA": "in progress, join now",
   "altcoinAirdropRewards": "Airdrop для держателей Альткоинов: в процессе обсуждения",
   "developmentAndMarketingRewards": "Разработка и маркетинг: {{developmentAndMarketingRewards}} SEM",
   "foundersRewards": "Основатели: {{foundersRewards}} SEM",
